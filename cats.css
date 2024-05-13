@@ -8,6 +8,7 @@ body {
     padding: 1em;
     border: 1em;
     border: 4px solid #747257;
+    border-radius: 1em;
     flex: 1;
 }
 .Cats {
@@ -15,13 +16,32 @@ body {
 }
 
 
-@media (min-width : 960px) {
+@media (min-width : 760px) {
+    body{
+        background-color: bisque;
+    }
+    .bongi {
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+
+/* @media (min-width : 960px) {
+    body{
+        background-color: aliceblue;
 
     .Cats {
         display: flex;
     }
 
 }
+} */
 
 fieldset{
     margin: 1em;
@@ -29,8 +49,8 @@ fieldset{
 }
 button {
     padding: 1em;
-     border: 3px solid;
-    border-radius: o.5em;
+     border: 3px solid #747257;
+    border-radius: 1em;
 }
 
 input {
